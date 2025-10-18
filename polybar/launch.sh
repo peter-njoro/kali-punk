@@ -103,12 +103,12 @@ elif [[ "$1" == "--panels" ]]; then
     launch_bar
 
 else
-    cat <<- EOF
-    Usage : launch.sh --theme
-        
-    Available Themes :
-    --blocks    --colorblocks    --cuts      --docky
-    --forest    --grayblocks     --hack      --material
-    --panels    --pwidgets       --shades    --shapes
-    EOF
+cat <<EOF
+Usage : launch.sh --theme
+
+Available Themes :
+--blocks    --colorblocks    --cuts      --docky
+--forest    --grayblocks     --hack      --material
+--panels    --pwidgets       --shades    --shapes
+EOF
 fi
