@@ -227,3 +227,6 @@ gaps outer 25
 
 # polybar
 exec_always sudo bash $HOME/polybar-themes/simple/launch.sh --panels
+
+# kali-punk: launch polybar panels
+exec --no-startup-id "/home/peter/.config/polybar/panels/launch.sh"
