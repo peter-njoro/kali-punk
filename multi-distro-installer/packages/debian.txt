@@ -1,0 +1,22 @@
+# This file contains the list of packages to be installed on Debian-based systems.
+
+git
+curl
+neofetch
+feh
+compton
+i3
+polybar
+mate-terminal
+rofi
+wallset
+zsh
+oh-my-zsh
+ranger
+brave-browser
+w3m
+i3-gaps
+imagemagick
+ffmpeg
+zsh-autosuggestions
+zsh-syntax-highlighting
